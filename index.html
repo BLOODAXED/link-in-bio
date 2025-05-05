@@ -2,10 +2,73 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
     <style>
+      html{
+        min-height: 100%;
+      }
       body {
+        min-height: 100%;
         padding-top: 1%;
         padding-bottom: 1%;
+        color: white;
+        background: #020024;
+        background: linear-gradient(0deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 16%, rgba(0, 212, 255, 1) 100%);
+        font-family: 'Courier New', Courier, monospace;
+      }
+      a{
+        color: white;
+        text-decoration: none;
+      }
+      .avatar-image{
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+      .thumbnail{
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+        background-color: white;
+      }
+      .item{
+        background-color: #AB00FF;
+        border-radius: 1000px;
+        padding: 5px;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        padding-right: 48px;
+        box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+      }
+      .main-container{
+        max-width: 720px;
+        margin: auto;
+      }
+      .image-row{
+        margin-bottom: 1rem;
+        text-align: center;
+      }
+      .name-row{
+        margin-bottom: 1.5rem;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 900;
+      }
+      .social-icons-row{
+        margin-bottom: 1.5rem;
+        display: flex;
+        justify-content: space-around;
+      }
+      .link-text{
+        text-align: center;
+        flex-grow: 1;
+      }
+      .social-icons-row{
+        font-size: 20px;
       }
     </style>
   </head>
@@ -16,18 +79,22 @@
       </div>
       <div class="name-row">This Specific Person Does Not Exist</div>
       <div class="social-icons-row">
-        <a href="https://github.com/christianversloot/machine-learning-articles/blob/main/this-person-does-not-exist-how-does-it-work.md" target="_black"> Github </a>
-        <a href="https://www.linkedin.com/404" target="_blank"> Linkedin </a>
-        <a href="https://x.com/404" target="_blank"> X </a>
+        <a href="https://github.com/christianversloot/machine-learning-articles/blob/main/this-person-does-not-exist-how-does-it-work.md" target="_black"><i class="fa-brands fa-square-github"></i></a>
+        <a href="https://www.linkedin.com/404" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://x.com/404" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
       </div>
       <div class="links-row">
         <div class="item">
-          <img src="" alt="">
+          <img src="favi2.png" class="thumbnail" alt="this person does not exist icon">
           <a href="https://thispersondoesnotexist.com" target="_blank" class="link-text">This Person Does Not Exist Website</a>
         </div>
         <div class="item">
-          <img src="" alt="">
+          <img src="favi1.png" class="thumbnail" alt="things that don't exist icon">
           <a href="https://thisxdoesnotexist.com" target="_blank" class="link-text">More Things That Don't Exist</a>
+        </div>
+        <div class="item">
+          <img src="greenhouse.jpg" class="thumbnail" alt="greenhouse">
+          <a href="https://www.greenhouseinthesnow.com" target="_blank" class="link-text">A Greenhouse Project I adore</a>
         </div>
       </div>
     </div>
