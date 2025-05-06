@@ -1,3 +1,3 @@
-# static-html-template
+# Link In Bio Assignment
 
-Use this template to create static HTML websites and deploy them on Render.
+This is my repo for the Link In Bio assignment for DPI
